@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Nature Wallpaper</string>
+    <string name="facebook_app_id">344416396399323</string>
+    <string name="fb_login_protocol_scheme">fb344416396399323</string>
 </resources>
