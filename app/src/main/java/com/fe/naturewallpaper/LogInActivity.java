@@ -1,6 +1,5 @@
 package com.fe.naturewallpaper;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -52,7 +51,6 @@ public class LogInActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         AppEventsLogger.activateApp(this);
 
@@ -116,7 +114,7 @@ public class LogInActivity extends AppCompatActivity {
                     firestore.collection("users").document(user_id).set(userMap).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {
-                            Intent intent = new Intent(LogInActivity.this, MainActivity.class);
+                            Intent intent = new Intent(LogInActivity.this, ShareImageActivity.class);
                             startActivity(intent);
                             finish();
                         }
