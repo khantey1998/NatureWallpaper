@@ -4,10 +4,62 @@
     android:layout_height="match_parent"
     tools:context="com.fe.naturewallpaper.fragment.ShareWallpaperFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploaded_img"/>
+        <TextView
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"/>
+        <EditText
+            android:backgroundTint="@color/black"
+            android:padding="5dp"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_title"
+            android:hint="What the picture about"/>
+        <TextView
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"/>
+        <EditText
+            android:textCursorDrawable="@null"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_content"
+            android:hint="Tell us what your picture about"/>
+        <TextView
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tag"/>
+        <EditText
+            android:textCursorDrawable="@null"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_tag"
+            android:hint="Tell us what your picture about"/>
+
+    </LinearLayout>
 
 </FrameLayout>
