@@ -1,7 +1,9 @@
-package com.fe.naturewallpaper;
+package com.fe.naturewallpaper.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.fe.naturewallpaper.R;
 
 public class ShareImageActivity extends AppCompatActivity {
     //first commit
