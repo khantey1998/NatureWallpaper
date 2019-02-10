@@ -1,65 +1,65 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.fe.naturewallpaper.fragment.ShareWallpaperFragment">
 
-    <LinearLayout
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/uploaded_img"/>
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:layout_height="wrap_content"
+        android:text="Title"/>
+    <EditText
+        android:backgroundTint="@color/black"
+        android:padding="5dp"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_title"
+        android:hint="What the picture about"/>
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content"/>
+    <EditText
+        android:textCursorDrawable="@null"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_content"
+        android:hint="Tell us what your picture about"/>
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tag"/>
+    <EditText
+        android:textCursorDrawable="@null"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_tag"
+        android:hint="Tell us what your picture about"/>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/uploaded_img"/>
-        <TextView
-            android:textStyle="bold"
-            android:padding="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Title"/>
-        <EditText
-            android:backgroundTint="@color/black"
-            android:padding="5dp"
-            android:textCursorDrawable="@null"
-            android:textColor="@color/black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_title"
-            android:hint="What the picture about"/>
-        <TextView
-            android:textStyle="bold"
-            android:padding="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Content"/>
-        <EditText
-            android:textCursorDrawable="@null"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/black"
-            android:padding="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_content"
-            android:hint="Tell us what your picture about"/>
-        <TextView
-            android:textStyle="bold"
-            android:padding="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tag"/>
-        <EditText
-            android:textCursorDrawable="@null"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/black"
-            android:padding="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_tag"
-            android:hint="Tell us what your picture about"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload_button"
+        android:text="Share this Picture"/>
 
-    </LinearLayout>
-
-</FrameLayout>
+</LinearLayout>
