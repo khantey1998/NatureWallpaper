@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "871351270059",
+    "firebase_url": "https://naturalwallpaper.firebaseio.com",
+    "project_id": "naturalwallpaper",
+    "storage_bucket": "naturalwallpaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871351270059:android:0a8c79d0ef1f9d5a",
+        "android_client_info": {
+          "package_name": "com.fe.naturewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871351270059-k799aou217cpovbgiseh5ial0ota6mgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fe.naturewallpaper",
+            "certificate_hash": "03415ff71774754530a148554a75e401db82a36e"
+          }
+        },
+        {
+          "client_id": "871351270059-8kergtt7ir0r09329fr2f70r8fgt3cug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fe.naturewallpaper",
+            "certificate_hash": "45b74f83a75f14f761e2a4e8680b9a29702b6ff6"
+          }
+        },
+        {
+          "client_id": "871351270059-6l7445t5de4thljgibc0bo9ca7kabr4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fe.naturewallpaper",
+            "certificate_hash": "25c7de359fc29404db9eeb62863c8d2158f6e781"
+          }
+        },
+        {
+          "client_id": "871351270059-dkm1eabr06b1p9b1j2lc794amsruvm09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTUg-F4eQ6U-J1GcVnNaI6G6zaRrKLT6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871351270059-dkm1eabr06b1p9b1j2lc794amsruvm09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
